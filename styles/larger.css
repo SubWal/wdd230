@@ -1,0 +1,16 @@
+nav a:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+        
+        justify-content: space-around;
+        
+    }
+
+    nav ul li{
+        flex: 1 1 100%;
+    }}
+        
