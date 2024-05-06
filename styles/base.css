@@ -1,9 +1,18 @@
 h1 {
     font-size : 2rem;
-    color: blue;
-    font-weight: 300;
+    color: black;
+    font-weight: 400;
 }
 
+.WDD span{
+    color: black;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem 2vw;
+    border-bottom: 2px solid black;
+   
+ 
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -30,4 +39,34 @@ nav a:hover {
 
 nav .active {
     background-color : rgba(0,0,0,0.3);
+}
+
+.parent {
+    margin: 1rem 2vw;
+}
+
+.parent section {
+    border: 1px solid green;
+    background-color: pink;
+    border-radius: 10px;
+    overflow : hidden;
+    margin : 1rem 0;
+}
+
+
+.parent span{
+    background-color: rgb(137, 137, 196) ;
+    color: #fff;
+    display :block;
+    text-align: center;
+    padding : .75rem 0;
+}
+
+.parent p {
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(124, 85, 161);
+    text-align: center;
 }

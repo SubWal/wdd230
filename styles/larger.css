@@ -12,5 +12,18 @@ nav a:hover{
 
     nav ul li{
         flex: 1 1 100%;
-    }}
-        
+    }
+
+    .parent{
+        display : grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+
+    .parent section{
+        box-shadow: 1px 1px 1px rgb(35, 22, 22);
+
+    }
+
+
+}
