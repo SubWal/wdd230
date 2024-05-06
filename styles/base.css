@@ -24,8 +24,9 @@ h1 {
 
 
 header {
-
-    background-color: aqua;
+    
+    background-color: #642B52;
+    color: white;
     padding: 20px;
     column-gap: 4rem;
     display: flex;
@@ -63,7 +64,7 @@ body {
 nav {
   
 
-    background-color: rgb(42, 60, 80);
+    background-color: #754599;
 }
 
 nav ul {
@@ -114,6 +115,7 @@ nav .active {
 }
 
 footer {
-    background-color: rgb(124, 85, 161);
+    background-color: #9650B8;
     text-align: center;
+    color: #fff;
 }
