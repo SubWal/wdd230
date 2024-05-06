@@ -24,6 +24,17 @@ nav a:hover{
         box-shadow: 1px 1px 1px rgb(35, 22, 22);
 
     }
+    footer{
+    margin-top:200px;
+    padding: 20px 50px;
+    /* display: flex; */
+    justify-content: space-around; 
+    align-items: center;
 
-
+    }
 }
+
+    
+
+
+    

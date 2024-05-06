@@ -3,42 +3,77 @@ h1 {
     color: black;
     font-weight: 400;
 }
+/* * {
+   margin: 0;
+   padding:0;
+} */
 
 .WDD span{
+    
+   
     color: black;
+    
     font-size: 2rem;
     font-weight: 400;
     margin: 1rem 2vw;
     border-bottom: 2px solid black;
+    
    
  
 }
 
-.image-name {
+
+header {
+
+    background-color: aqua;
+    padding: 20px;
+    column-gap: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+/* 
+.image-name {
+    
+    column-gap: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .image-name span {
+    
     font-size: 3rem;
     font-weight: 700;
+    
 
-}
+} */
 
 body {
+    margin: 0;
+    
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 nav {
+  
+
     background-color: rgb(42, 60, 80);
 }
 
 nav ul {
+    margin:0;
+
     list-style-type: none;
 }
 
 nav a {
+    
     display : block;
     color : white;
     text-align: center;
