@@ -1,0 +1,40 @@
+nav a:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+        
+        justify-content: space-around;
+        
+    }
+
+    nav ul li{
+        flex: 1 1 100%;
+    }
+
+    .parent{
+        display : grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+
+    .parent section{
+        box-shadow: 1px 1px 1px rgb(35, 22, 22);
+
+    }
+    footer{
+    margin-top:400px;
+    padding: 20px 50px;
+    /* display: flex; */
+    justify-content: space-around; 
+    align-items: center;
+
+    }
+}
+
+    
+
+
+    
