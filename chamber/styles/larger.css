@@ -2,6 +2,8 @@ nav a:hover{
     text-decoration: underline;
 }
 
+
+
 @media (min-width: 640px) {
     nav ul {
         display: flex;
@@ -10,13 +12,17 @@ nav a:hover{
         
     }
 
+    #menu {
+        display: none;
+    }
+
     nav ul li{
         flex: 1 1 100%;
     }
 
-    #menu {
-        display: none;
-    }
+    /* nav {
+        display: show;
+    } */
 
     .parent{
         display : grid;
@@ -37,7 +43,6 @@ nav a:hover{
 
     }
 }
-
     
 
 

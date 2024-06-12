@@ -18,22 +18,39 @@ h2 {
     padding : .5rem .75rem;
     background-color: #eee;
     color : #000;
-    cursor :pointer;
+  
 }
 
 #menu::before {
     content: "≡" ;
 }
 
-/* .hamburger li {
+.hamburger {
+    list-style: none;
+    margin : 0;
+    /* max-width: 760px; */
+}
+
+.hamburger li {
     display :none;
-} */
-/* 
+}
+
+.hamburger a {
+    display: block;
+    padding : 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color : #eee;
+    /* font-weight: 400; */
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
 .show li {
     display :block;
-} */
+}
 
-#menu.show ::before {
+#menu.show::before {
     content : "X" ;
 }
 
@@ -76,12 +93,5 @@ nav .active {
     align-self: center;
 }
 
-.hamburger {
-    display: none;
-}
-
-.hamburger.show {
-    display: block;
-}
 
 
