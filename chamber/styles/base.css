@@ -10,6 +10,33 @@ h2 {
     font-weight: 400;
 }
 
+#menu {
+    display: block;
+    font-size:   2rem;
+    /* font-weight: 00; */
+    text-decoration: none;
+    padding : .5rem .75rem;
+    background-color: #eee;
+    color : #000;
+    cursor :pointer;
+}
+
+#menu::before {
+    content: "≡" ;
+}
+
+/* .hamburger li {
+    display :none;
+} */
+/* 
+.show li {
+    display :block;
+} */
+
+#menu.show ::before {
+    content : "X" ;
+}
+
 nav {
   
 
@@ -38,6 +65,7 @@ nav .active {
     background-color : rgba(0,0,0,0.3);
 }
 
+
 .logo {
     max-width: 80px;
 }
@@ -47,3 +75,13 @@ nav .active {
     justify-self: center;
     align-self: center;
 }
+
+.hamburger {
+    display: none;
+}
+
+.hamburger.show {
+    display: block;
+}
+
+
