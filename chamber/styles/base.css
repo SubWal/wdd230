@@ -21,7 +21,7 @@ h2 {
   
 }
 
-#menu::before {
+#menu::before{
     content: "≡" ;
 }
 
@@ -32,7 +32,7 @@ h2 {
 }
 
 .hamburger li {
-    display :show;
+    display :none;
 }
 
 .hamburger a {
@@ -46,11 +46,11 @@ h2 {
     font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
-.show li {
+.show li{
     display :block;
 }
 
-#menu.show::before {
+#menu.show::before{
     content : "X" ;
 }
 
