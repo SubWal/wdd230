@@ -14,7 +14,7 @@ h2 {
    padding:0;
 } */
 
-.WDD span{
+.WDD h1{
     
    
     color: black;
@@ -23,6 +23,7 @@ h2 {
     font-weight: 400;
     margin: 1rem 2vw;
     border-bottom: 2px solid black;
+    display : inline-block;
     
    
  
