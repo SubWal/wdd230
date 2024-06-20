@@ -63,12 +63,14 @@ header {
 } */
 
 body {
+    
     margin: 0;
     
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 nav {
+    
   
 
     background-color: #754599;
@@ -96,6 +98,42 @@ nav .active {
     background-color : rgba(0,0,0,0.3);
 }
 
+/* .hero picture {
+    
+    
+    width:100%;
+} */
+.hero {
+    position: relative;
+}
+
+.hero img {
+   
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero p {
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0,0,0,0.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+
+}
+
+.hero  p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: "Great Vibes",  serif;
+
+}
 .parent {
     margin: 1rem 2vw;
 }
@@ -121,6 +159,10 @@ nav .active {
     padding: 10px;
 }
 
+/* .map {
+    width: 100%;
+    height: auto;
+} */
 footer {
     margin-top: 400px;
     background-color: #9650B8;

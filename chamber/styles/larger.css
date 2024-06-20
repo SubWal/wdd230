@@ -19,6 +19,11 @@ nav a:hover{
     nav ul li{
         flex: 1 1 100%;
     }
+    
+    .hamburger li {
+        display:block;
+    }
+    
 
     /* nav {
         display: show;
