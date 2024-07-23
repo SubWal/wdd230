@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Anapurna Base Camp Chamber of Commerce">
+    <meta property="og:url" content="">
+    <meta property="og:discription"
+        content="This is the un-official website for Anapurna Base Camp Chamber of Commerce. Join in page">
+    <meta property="og:image" content="">
+    <meta property="fb:app_id" content="3517290288526630">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <title>Join Us - Form</title>
+</head>
+
+<body>
+    <header>
+        <!-- <a id = "logo_link" href="discover.html">
+            <img class = "logo" src = "images/logo.jpg" alt = "Logo Here" loading="lazy">
+        </a> -->
+        <div class = TopName>
+        <p>Anapurna Base Camp Chamber of Commerce</p></div>
+        <a id = "menu" href = "#"></a>
+        <nav>
+            <ul class = 'hamburger'>
+                <li class = "active"><a href="index.html">Home</a></li>
+                <li> <a href = "./siteplan.html">Site Plan </a> </li>
+                <li> <a href = "./discover.html">Discover</a> </li>
+          
+                
+              
+                <li> <a href = "./directory.html">Directory</a></li>
+                <li> <a href = "./join.html">Join</a></li>
+    
+            </ul>
+
+
+    
+        </nav>
+
+    </header>
+    <main id="join">
+        <div id="membershipInfo">
+            <!-- Gonna add with Javascript -->
+        </div>
+        <form action="thankyou.html" method="GET">
+            <h1>Join Us</h1>
+            <div>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div>
+                        <label for="firstName">First Name: </label>
+                        <input type="text" name="firstName" id="firstName" placeholder="John" autofocus required>
+                    </div>
+                    <div>
+                        <label for="lastName">Last Name: </label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Doe" required>
+                    </div>
+                    <div><label for="position">Position: </label>
+                        <input type="text" name="position" id="position" placeholder="clerk" pattern="[A-Za-z\s-]{7,}"></div>
+                    <div><label for="emailAddress">EmailID: </label>
+                        <input type="email" name="emailAddress" id="emailAddress" placeholder="johndoe@email.com"></div>
+                    <div><label for="phoneNo">Phone No.:</label>
+                        <input type="tel" name="phoneNo" id="phoneNo" placeholder="##########"></div>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <div><label for="organization">Organization's Name:</label>
+                    <input type="text" name="organization" id="organization" placeholder="Doe Holdings" required></div>
+                    <div><label for="membership">Select Your Membership Level: </label><br>
+                    <select name="membership" id="membership">
+                        <!-- Gonna add with javascript -->
+                    </select>
+                </div>
+                    <div><label for="description">Description: </label>
+                    <textarea  name="description" id="description" >Your Organization's brief introduction </textarea></div>
+                        <div id = "hidden">
+                            <input type="hidden" name="timeStamp" id = "timeStamp">
+                        </div>
+                </fieldset>
+                <div id = "button-box">
+                <button type = "submit">Join Us</button></div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> Subodh Bhetwal </p>
+        <p id="last-modified"></p>
+
+    </footer>
+    <script src = "./scripts/join.js"></script>
+    <script src="scripts/chamber.js" defer ></script>
+
+    
+</body>
+</html>

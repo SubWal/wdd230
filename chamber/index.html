@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce and Discover -  - WDD 230">
+    <meta name="author" content="">
+    <title>Chamber of Commerce and Discover</title>
+
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://drive.google.com/file/d/1iOIbPs6NFRjXENOPA_c9K0rpy91DdrC2/view?usp=drive_link">
+    <meta property="og:url" content="https://www.chamberofcommerce.com">
+    <meta property="og:description" content="Welcome to the Chamber of Commerce. Find information about our services and membership.">
+    <meta property="og:site_name" content="Chamber of Commerce">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <!-- <a id = "logo_link" href="discover.html">
+            <img class = "logo" src = "images/logo.jpg" alt = "Logo Here" loading="lazy">
+        </a> -->
+        <div class = TopName>
+        <p>Anapurna Base Camp Chamber of Commerce</p></div>
+        <a id = "menu" href = "#"></a>
+        <nav>
+            <ul class = 'hamburger'>
+                <li class = "active"><a href="index.html">Home</a></li>
+                <li> <a href = "./siteplan.html">Site Plan </a> </li>
+                <li> <a href = "./discover.html">Discover</a> </li>
+                <li> <a href = "./directory.html">Directory</a></li>
+                <li> <a href = "./join.html">Join</a></li>
+    
+            </ul>
+
+
+    
+        </nav>
+
+    </header>
+
+    <main>
+        <div id="announcement-banner">
+            <div id="close-banner">❌</div>
+        </div>
+        
+        <section id="intro-hero">
+            <div class="hero-container">
+                <div class="hero-image-wrapper">
+                    <img src="./images/landscape.webp" alt="Landscape of Annapurna Base Camp" class="hero-image">
+                    <img src="./images/mountainView.webp" alt="Landscape of Annapurna Base Camp" class="hero-image">
+                    <img src="./images/recreactional.webp" alt="Landscape of Annapurna Base Camp" class="hero-image">
+                </div>
+                <div class="hero-text">
+                    <h2>The beautiful Annapurna Base Camp <br>Welcomes You!!</h2>
+                    <p>We don't just look good, we do good and we taste good. Get acquainted with us, get acquainted with our food.</p>
+                    <a href="#" class="cta-button">Go now!</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="weather-forecast">
+            <h2>Weather Forecast</h2>
+            <div id="weather-details" class="weather-container">
+                <!-- Weather data will be injected here -->
+            </div>
+        </section>
+    
+        <section id="offerings">
+            <div class="offering-card">
+                <picture>
+                    <img src="images/Laphing.webp" alt="Delicious food" class="offering-image" width="400px" height="400px" loading="lazy">
+                </picture>
+                <h3>Food</h3>
+            </div>
+            <div class="offering-card">
+                <picture>
+                    <img src="images/hospatality.webp" alt="Hospitality services" class="offering-image" width="400px" height="400px" loading="lazy">
+                </picture>
+                <h3>Hospitality</h3>
+            </div>
+            <div class="offering-card">
+                <picture>
+                    <img src="images/recreactional.webp" alt="Recreational activities" class="offering-image" width="400px" height="400px" loading="lazy">
+                </picture>
+                <h3>Recreation</h3>
+            </div>
+        </section>
+    
+        <section id="things-to-do">
+            <h2>Things to do in Annapurna Base Camp</h2>
+            <div id="slideshow-container">
+                <div class="slideshow-slide">
+                    <picture>
+                        <img src="images/trecking.webp" alt="Trekking" class="slideshow-image"  loading="lazy">
+                    </picture>
+                    <h3>Amazing Trekking</h3>
+                </div>
+                <div class="slideshow-slide">
+                    <picture>
+                        <img src="images/viewpoints.webp" alt="Viewpoints" class="slideshow-image" loading="lazy">
+                    </picture>
+                    <h3>Scenic Viewpoints</h3>
+                </div>
+                <div class="slideshow-slide">
+                    <picture>
+                        <img src="images/senichomestay.webp" alt="Scenic Homestay" class="slideshow-image" loading="lazy">
+                    </picture>
+                    <h3>Clean and Scenic Homestay</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id="other-content">
+            <h2>More Content Below</h2>
+            <p>This is additional content below the slideshow section to ensure the page can be scrolled down.</p>
+        </section>
+        
+        
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="current-year"></span> SUbodh Bhetwal</p>
+        <p id="last-updated"></p>
+    </footer>
+    
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/slideshow.js" async></script>
+    <script src="scripts/featured.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
+    
+    <script src="scripts/chamber.js" defer ></script>
+   
+</body>
+</html>
