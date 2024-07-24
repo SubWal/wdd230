@@ -63,23 +63,23 @@
                     <legend>Personal Information</legend>
                     <div>
                         <label for="firstName">First Name: </label>
-                        <input type="submit" value = "✖️" name="firstName" id="firstName" placeholder="John" autofocus required>
+                        <input type="text" name="firstName" id="firstName" placeholder="John" autofocus required>
                     </div>
                     <div>
                         <label for="lastName">Last Name: </label>
-                        <input type="submit" value = "✖️" name="lastName" id="lastName" placeholder="Doe" required>
+                        <input type="text" name="lastName" id="lastName" placeholder="Doe" required>
                     </div>
                     <div><label for="position">Position: </label>
-                        <input type="submit" value = "✖️" name="position" id="position" placeholder="clerk" pattern="[A-Za-z\s-]{7,}"></div>
+                        <input type="text" name="position" id="position" placeholder="clerk" pattern="[A-Za-z\s-]{7,}"></div>
                     <div><label for="emailAddress">EmailID: </label>
-                        <input type="submit" value = "✖️" name="emailAddress" id="emailAddress" placeholder="johndoe@email.com"></div>
+                        <input type="email" name="emailAddress" id="emailAddress" placeholder="johndoe@email.com"></div>
                     <div><label for="phoneNo">Phone No.:</label>
-                        <input type="submit" value = "✖️" name="phoneNo" id="phoneNo" placeholder="##########"></div>
+                        <input type="tel" name="phoneNo" id="phoneNo" placeholder="##########"></div>
                 </fieldset>
                 <fieldset>
                     <legend>Additional Information</legend>
                     <div><label for="organization">Organization's Name:</label>
-                    <input type="submit" value = "✖️" name="organization" id="organization" placeholder="Doe Holdings" required></div>
+                    <input type="text" name="organization" id="organization" placeholder="Doe Holdings" required></div>
                     <div><label for="membership">Select Your Membership Level: </label><br>
                     <select name="membership" id="membership">
                         <!-- Gonna add with javascript -->
@@ -88,7 +88,7 @@
                     <div><label for="description">Description: </label>
                     <textarea  name="description" id="description" >Your Organization's brief introduction </textarea></div>
                         <div id = "hidden">
-                            <input type="submit" name="timeStamp" id = "timeStamp">
+                            <input type="hidden" name="timeStamp" id = "timeStamp">
                         </div>
                 </fieldset>
                 <div id = "button-box">
