@@ -30,3 +30,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 
+
+<body>
+    <div id  = "mode">✺</div>
+    <header>
+        <div id="name">
+            <img src="./images/my_img.jpeg" alt="A person smiling">
+            <h1>Prashant Lamichhane</h1>
+        </div>
+        <a id = "menu" href = "#"></a>
+        <nav class = "navigation">
+            <a href="#">Home</a>
+            <a href="./chamber/index.html">Chamber</a>
+            <a href="lesson1/chamber-site-plan.html">Site Plan</a>
+            <a href="#">Survey</a>
+            
+        </nav>
+
+    </header>
+    <main id = "form">
+        <form action="" method="GET">
+            <h1>
+                Register
+            </h1>
+            <div>
+                <fieldset>
+
+                    <div>
+                        <label for="userName">User Name: </label>
+                        <input type="text" name="userName" id="userName" pattern="[A-Za-z0-9]{8,}" required>
+                    </div>
+                    <div>
+                        <label for="conUserName">Confirm User Name: </label>
+                        <input type="password" name="conUserName" id="conUserName" pattern="[A-Za-z0-9]{8,}" required>
+                    </div>
+                
+                    
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="johndoe@byui.edu" pattern =  "[a-zA-Z0-9._%+-]+@byui\.edu$" required>
+                    </div>
+                    <div>
+                        <label for="pageRating">Rate my Page</label>
+                        <input type="range" name="pageRating" id="pageRating">
+                    </div>
+                </fieldset>
+            </div>
+            <div id = "button-box">
+            <input type="submit" value="Rate" id = "submit">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> Prashant Lamichhane Nepal🇳🇵</p>
+        <p id="last-modified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src = "scripts/form.js"></script>
+</body>
+
+
+</html>
+
+
+
