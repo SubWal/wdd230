@@ -40,6 +40,21 @@ nav a:hover{
 
     }
 
+    .discover {
+        flex-direction: row; /* Normal layout for screens wider than 640px */
+    }
+
+    #side-bar {
+        width: 20%; /* Sidebar takes up 20% width on larger screens */
+        order: 0; /* Reset order */
+    }
+
+    .main-view {
+        width: 75%; /* Main view takes up 75% width on larger screens */
+        order: 0; /* Reset order */
+    }
+}
+
 
     
     footer{
@@ -52,8 +67,7 @@ nav a:hover{
     }
 
     
-}
-    
+
 
 
     

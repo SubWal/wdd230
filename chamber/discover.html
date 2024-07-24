@@ -7,9 +7,7 @@
     <meta name="author" content="">
     <title>Chamber of Commerce and Discover</title>
 
-
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
 
     <meta property="og:title" content="Chamber of Commerce">
     <meta property="og:type" content="website">
@@ -22,8 +20,6 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
@@ -31,32 +27,72 @@
 </head>
 <body>
     <header>
-        <!-- <a id = "logo_link" href="discover.html">
-            <img class = "logo" src = "images/logo.jpg" alt = "Logo Here" loading="lazy">
-        </a> -->
-        <div class = TopName>
-        <h1>Anapurna Base Camp Chamber of Commerce in the City of Anapurna</h1></div>
-        <a id = "menu" href = "#"></a>
+        <div class="TopName">
+            <h1>Annapurna Base Camp Chamber of Commerce</h1>
+        </div>
+        <a id="menu" href="#"></a>
         <nav>
-            <ul class = 'hamburger'>
-                <li class = "active"><a href="index.html">Home</a></li>
-                <li> <a href = "./siteplan.html">Site Plan </a> </li>
-                <li> <a href = "./discover.html">Discover</a> </li>
-               
-          
-                
-              
-                <li> <a href = "./directory.html">Directory</a></li>
-                <li> <a href = "./join.html">Join</a></li>
-    
+            <ul class="hamburger">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="./siteplan.html">Site Plan</a></li>
+                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="./directory.html">Directory</a></li>
+                <li><a href="./join.html">Join</a></li>
             </ul>
-
-
-    
         </nav>
-
     </header>
+
+    <main class="discover">
+        <section id="side-bar">
+            <div class="side-card">
+                <h2>Number of times you visited</h2><span id="timesVisited"></span>
+            </div>
+            <div class="side-card">
+                <h2>Location</h2>
+                <p>This place is located in the heart of Anapurna City. </p>
+            </div>
+            <div class="side-card">
+                <h2>The History</h2>
+                <p>A snowey place full of tourists and helpul and cheerful local people always ready to help you. Legned has it that if you are going on a treck to the top of the base camp or to climb the mountain A dog will guide you the paths as long as you give it food to eat. </p>
+            </div>
+            <div class="side-card">
+                <h2>Future Events</h2>
+                <p>There are a lot of local events and festivals going on anytime of the year you vist with a very cultural welcome form the pople at the homstay everytime you visit. </p>
+            </div>
+            <div class="side-card">
+                <h2>Things to do</h2>
+                <p> There are things to do for everyone here. If you like to go on a long trecks with the breath taking views of the Anapurna City you can do that and if you can't do longs walks there are varius viewpoints in closer waking distance where you can enjoy the view with the nice hot tea. </p>
+            </div>
+            <div class="side-card">
+                <h2>Climbing Mountains</h2>
+                <p>And you are here to see the mountain and have fun you can climb the mountain and on top of climbing one mountain as a bonus you can see the worlds tallest Mountain the Mt.Everest and top 10 tallest mountains here. </p>
+            </div>
+            <div class="side-card">
+                <h2>Locals</h2>
+                <p>Absolutely amazing locals. Always ready to help locals and you can enjoy the very diverse culture here.</p>
+            </div>
+        </section>
+        <section class="main-view">
+            <picture><img src="images/Laphing.webp" alt="food" class="main-cards" width="500" height="400" loading="lazy"></picture>
+            <picture><img src="images/hospatality.webp" alt="a hotel" class="main-cards" width="500" height="400" loading="lazy"></picture>
+            <picture><img src="images/teckingRoute.webp" alt="There are amazing trekking places here" class="main-cards" width="500" height="400" loading="lazy"></picture>
+            <picture><img src="images/recreactional.webp" alt="There are amazing campsites with amazing views" class="main-cards" width="500" height="400" loading="lazy"></picture>
+            <picture><img src="images/sunset.webp" alt="landscape" class="main-cards" width="500" height="400" loading="lazy"></picture>
+            <picture><img src="images/goaldenhour.webp" alt="golden hour" class="main-cards" width="500" height="400" loading="lazy"></picture>
+        </section>
+    </main>
+
+   
+    <footer>
+        <p>&copy;<span id="year"></span> Subodh Bhetwal</p>
+        <p id="last-modified"></p>
+
+    </footer>
+
+
+
     <script src="scripts/chamber.js" defer ></script>
+    <script src="scripts/visits.js" defer ></script>
    
 </body>
 </html>

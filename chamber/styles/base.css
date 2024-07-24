@@ -99,6 +99,79 @@ nav .active {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+
+
+/* Main and Sidebar styles */
+.discover {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column; /* For mobile first, text first */
+}
+
+#side-bar {
+    background-color: #D6C6B8; /* Light Earth Brown */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    order: 1; /* Ensure sidebar appears first on small screens */
+}
+
+.side-card {
+    background-color: #FFFACD; /* Light Sand Yellow */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.side-card h2 {
+    margin-top: 0;
+}
+
+.main-view {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: #FAFAFA; /* Snow White */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    order: 2; /* Ensure main view appears after sidebar on small screens */
+}
+
+.main-cards {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.main-cards:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    clear: both;
+    background-color: #B3E5B3; /* Light Palm Green */
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
 #offerings {
     display: flex;
     justify-content: space-around;
