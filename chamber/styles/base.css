@@ -28,7 +28,9 @@ h2 {
     padding: 0.5rem;
 }
 
-.TopName p {
+.TopName h1 {
+    font-size: 35px;
+    font-weight: 700;
     margin-top: 0;
 }
 
