@@ -40,6 +40,13 @@ nav a:hover{
 
     }
 
+    .TopName h1 {
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 0;
+    }
+    
+
     .discover {
         flex-direction: row; /* Normal layout for screens wider than 640px */
     }

@@ -29,7 +29,7 @@ h2 {
 }
 
 .TopName h1 {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 700;
     margin-top: 0;
 }
@@ -332,6 +332,8 @@ footer {
     color: #000000;
 }
 
+
+
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
@@ -422,4 +424,56 @@ input, textarea, select {
 #submit:hover {
     background-color: #B3CDE0; /* Light Steel Blue */
 }
+
+
+#directoryPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#directory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#memberCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 25em;
+    margin: 1em;
+    padding: 1em;
+    border: 0.2em solid #B3CDE0; /* Light Steel Blue */
+    box-shadow: inset 1px 1px 10px 5px #B3CDE0; /* Light Steel Blue */
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    background-color: #FFFACD; /* Light Sand Yellow */
+    backface-visibility: hidden;
+}
+
+#memberCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#memberCard img {
+    max-height: 20em;
+    border-radius: 10px;
+}
+
+.toggle {
+    padding: 10px;
+    margin: 1em auto;
+    text-align: center;
+    border: 2px solid #A2D5AB; /* Light Forest Green */
+    background-color: #FAFAFA; /* Snow White */
+}
+
+
+
+
+
 

@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Hari Prasad",
+        "address": "Anapurna, Nepal",
+        "phoneNo": "9864125489",
+        "imgUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+        "memLevel": "Chairman",
+        "description": "The only limit to our realization of tomorrow is our doubts of today."
+    },
+    {
+        "name": "Chor Bahadur",
+        "address": "Anapurna, Nepal",
+        "phoneNo": "9845236157",
+        "imgUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+        "memLevel": "President",
+        "description": "In the middle of every difficulty lies opportunity."
+    },
+    {
+        "name": "Kamala Katuwal",
+        "address": "Anapurna, Nepal",
+        "phoneNo": "9845236145",
+        "imgUrl": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+        "memLevel": "Vice President",
+        "description": "Success is not final, failure is not fatal: It is the courage to continue that counts."
+    },
+    {
+        "name": "Bik Bahadur",
+        "address": "Anapurna, Nepal",
+        "phoneNo": "9854123657",
+        "imgUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+        "memLevel": "Secretary",
+        "description": "The only way to do great work is to love what you do."
+    },
+    {
+        "name": "Dili Ram",
+        "address": "Anapurna, Nepal",
+        "phoneNo": "9845236157",
+        "imgUrl": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+        "memLevel": "Financial Adviser",
+        "description": "Believe you can and you're halfway there."
+    },
+    {
+        "name": "Korke Shai",
+        "address": "Anapurna, Nepal",
+        "phoneNo": "9845136571",
+        "imgUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+        "memLevel": "Creative Adviser",
+        "description": "Creativity is intelligence having fun."
+    },
+    {
+        "name": "Sundar Lal",
+        "address": "Anapurna, Nepal",
+        "phoneNo": "98745955489",
+        "imgUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+        "memLevel": "Security Adviser",
+        "description": "To improve is to change; to be perfect is to change often."
+    }, 
+
+    {
+        "name": "katto Rai",
+        "address": "Anapurna, Nepal",
+        "phoneNo": "98745955789",
+        "imgUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+        "memLevel": "Adviser",
+        "description": "The best way to predict the future is to invent it."
+    }
+]
