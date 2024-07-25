@@ -4,11 +4,11 @@
 
 :root {
 
-    --primary-color: #231230  ;
-    --secondary-color: #582c51 ;
-    --accent1-color: #000000;
-    --accent2-color: #a08a99;
-    --accent3-color: #b5b5b5;
+    --primary-color: #B3CDE0;
+    --secondary-color: #B0C4DE ;
+    --accent1-color: #D6C6B8;
+    --accent2-color: #FFC1C1;
+    --accent3-color: #B3E5B3;
   
    
   
@@ -16,11 +16,11 @@
   
     --headline-color-on-white: #000000;  /* headlines on a white background */ 
     --headline-color-on-color: #fff; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #582c51; /* paragraph text on a white background */ 
+    --paragraph-color-on-white: black; /* paragraph text on a white background */ 
     --paragraph-color-on-color: #b5b5b5; /* paragraph text on a colored background */ 
     --paragraph-background-color: #000000  ;
-    --nav-link-color: #b5b5b5;
-    --nav-background-color: #582c51;
+    --nav-link-color: #black;
+    --nav-background-color: #B3CDE0;
     --nav-hover-link-color: white;
     --nav-hover-background-color: #584954;
   }
