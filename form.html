@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Form page for the tepmple website">
+    <meta name="description" content="Form page for the temple website">
     <meta name="author" content="Subodh Bhetwal">
     <title>Form page for the Temple Website</title>
-
     
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-
     <meta property="og:title" content="Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://drive.google.com/file/d/1iOIbPs6NFRjXENOPA_c9K0rpy91DdrC2/view?usp=drive_link">
@@ -18,12 +15,9 @@
     <meta property="og:description" content="Welcome to the Chamber of Commerce. Find information about our services and membership.">
     <meta property="og:site_name" content="Chamber of Commerce">
 
-
-
-
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel = "stylesheet" href = "styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/form.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,45 +25,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
-    <div id  = "mode">✺</div>
+    <div id="mode">✺</div>
     <header>
-       
-        <img src="images/20231216_162201.jpg" alt="Subodh Bhetwal Profile " width ="75" height="100"> 
+        <img src="images/20231216_162201.jpg" alt="Subodh Bhetwal Profile" class="profile-img">
         <span>Subodh Bhetwal</span>
-        
-
     </header>
     <nav>
         <ul>
-            <li class ="active"><a href="index.html">Home</a></li> 
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="./chamber/discover.html">Chamber</a></li>
             <li><a href="./sitePlan.html">Site Plan</a></li>
             <li><a href="form.html">Form</a></li>
         </ul>
     </nav>
-    <main id = "form">
-        <form action="" method="GET">
-            <h1>
-                Register
-            </h1>
+    <main id="form">
+        <form action="" method="GET" onsubmit="return validatePasswords()">
+            <h1>Register</h1>
             <div>
                 <fieldset>
-
                     <div>
                         <label for="userName">User Name: </label>
                         <input type="text" name="userName" id="userName" pattern="[A-Za-z0-9]{8,}" required>
                     </div>
                     <div>
-                        <label for="conUserName">Confirm User Name: </label>
-                        <input type="password" name="conUserName" id="conUserName" pattern="[A-Za-z0-9]{8,}" required>
+                        <label for="password">Type your password: </label>
+                        <input type="password" name="password" id="password" pattern=".{6,}" required>
                     </div>
-                
-                    
+                    <div>
+                        <label for="confirmPassword">Confirm your password: </label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" pattern=".{6,}" required>
+                    </div>
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="johndoe@byui.edu" pattern =  "[a-zA-Z0-9._%+-]+@byui\.edu$" required>
+                        <input type="email" name="email" id="email" placeholder="johndoe@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
                     </div>
                     <div>
                         <label for="pageRating">Rate my Page</label>
@@ -77,8 +70,8 @@
                     </div>
                 </fieldset>
             </div>
-            <div id = "button-box">
-            <input type="submit" value="Rate" id = "submit">
+            <div id="button-box">
+                <input type="submit" value="Register" id="submit">
             </div>
         </form>
     </main>
@@ -88,12 +81,8 @@
         <p id="last-modified"></p>
     </footer>
 
-    <script src="scripts/getDates.js"></script>
-    <script src = "scripts/form.js"></script>
+    <script src="scripts/getDates.js" defer></script>
+   
+    <script src="scripts/keyphrase.js" defer></script>
 </body>
-
-
 </html>
-
-
-
