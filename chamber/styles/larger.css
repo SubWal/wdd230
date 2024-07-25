@@ -64,14 +64,17 @@ nav a:hover{
 
 
     
-    footer{
-    margin-top:400px;
-    padding: 20px 50px;
-    /* display: flex; */
-    justify-content: space-around; 
-    align-items: center;
+footer {
+    clear: both;
+    background-color: #B3E5B3; 
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
 
-    }
 
     
 

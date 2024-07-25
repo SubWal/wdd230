@@ -77,6 +77,13 @@ nav .active {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.profile-img {
+    width: 75px;
+    height: 100px;
+    /* object-fit: cover; This ensures the image fits nicely within the given dimensions */
+}
+
+
 .hero {
     position: relative;
 }
@@ -148,6 +155,8 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
 
 form h1 {
     font-size: 2rem;

@@ -171,8 +171,55 @@ nav .active {
 }
 
 
+#weather-forecast {
+    background-color: #FAFAFA; /* Snow White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* margin: 20px auto; */
+    /* max-width: 800px; */
+}
 
-/* Main and Sidebar styles */
+#weather-forecast h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.weather-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.weather-card {
+    background-color: #B0C4DE; /* Light Slate Gray */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+}
+
+.weather-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.weather-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.weather-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Sidebar styles */
 .discover {
     display: flex;
     flex-wrap: wrap;
@@ -232,17 +279,7 @@ nav .active {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer styles */
-footer {
-    clear: both;
-    background-color: #B3E5B3; /* Light Palm Green */
-    text-align: center;
-    padding: 10px;
-    color: #333;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ccc;
-}
+
 #offerings {
     display: flex;
     justify-content: space-around;
@@ -557,6 +594,20 @@ input, textarea, select {
     border: 2px solid #A2D5AB; /* Light Forest Green */
     background-color: #FAFAFA; /* Snow White */
 }
+
+/* Footer styles */
+footer {
+    clear: both;
+    background-color: #B3E5B3; 
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+
 
 
 
