@@ -43,6 +43,11 @@ header {
     font-size: 3rem;
     font-weight: 700;
 }
+.profile-img {
+    width: 75px;
+    height: 100px;
+    object-fit: cover; /* This ensures the image fits nicely within the given dimensions */
+}
 
 body {
     margin: 0;
@@ -76,13 +81,6 @@ nav a:hover {
 nav .active {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
-.profile-img {
-    width: 75px;
-    height: 100px;
-    /* object-fit: cover; This ensures the image fits nicely within the given dimensions */
-}
-
 
 .hero {
     position: relative;
@@ -137,8 +135,6 @@ nav .active {
 .parent p {
     padding: 10px;
 }
-
-
 #mode {
     position: fixed;
     top: 10px;
@@ -147,7 +143,16 @@ nav .active {
     cursor: pointer;
 }
 
-main {
+/* main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--light-gold);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+#form{
     max-width: 800px;
     margin: 2rem auto;
     padding: 2rem;
@@ -155,7 +160,6 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 
 
 form h1 {
@@ -184,7 +188,7 @@ input[type="range"] {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
-    border: 1px solid var(--soft-grey);
+    border: (--soft-grey);
     border-radius: 4px;
     font-size: 1rem;
 }
@@ -203,9 +207,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: var(--rich-brown);
 }
+
 footer {
-    margin-top: 400px;
-    background-color: var(--deep-blue);
     text-align: center;
+    padding: 1rem;
+    background-color: var(--deep-blue);
     color: var(--soft-white);
 }
+
