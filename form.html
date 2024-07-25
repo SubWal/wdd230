@@ -50,15 +50,15 @@
                     </div>
                     <div>
                         <label for="password">Type your password: </label>
-                        <input type="password" name="password" id="password" pattern=".{6,}" required>
-                    </div>
+                        <input type="password" name="password" id="password" pattern=".{6,}" title="Password must be at least 6 characters long required>
+                    </div>  
                     <div>
                         <label for="confirmPassword">Confirm your password: </label>
                         <input type="password" name="confirmPassword" id="confirmPassword" pattern=".{6,}" required>
                     </div>
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="johndoe@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required>
+                        <input type="email" name="email" id="email" placeholder="johndoe@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Password must match the above password" required>
                     </div>
                     <div>
                         <label for="phone">Phone</label>
