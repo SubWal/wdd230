@@ -56,8 +56,8 @@
     <main>
         <div id="announcement-banner">
             <div id="close-banner">❌</div>
+            <p>Join us for the chamber of commerce meet and greet on Wednesday at 7:00 p.m.</p>
         </div>
-        
         <section id="intro-hero">
             <div class="hero-container">
                 <div class="hero-image-wrapper">
@@ -73,12 +73,7 @@
             </div>
         </section>
         
-        <section id="weather-forecast">
-            <h2>Weather Forecast</h2>
-            <div id="weather-details" class="weather-container">
-                <!-- Weather data will be injected here -->
-            </div>
-        </section>
+
     
         <section id="offerings">
             <div class="offering-card">
@@ -125,11 +120,18 @@
             </div>
         </section>
         
-        <section id="other-content">
-            <h2>More Content Below</h2>
-            <p>This is additional content below the slideshow section to ensure the page can be scrolled down.</p>
+        <section id="weather-forecast">
+            <h2>Weather Forecast</h2>
+            <div id="weather-details" class="weather-container">
+                <!-- Weather data will be injected here -->
+            </div>
         </section>
-        
+
+        <section id="spotlight-section">
+            <h2>Member Spotlights</h2>
+            <!-- Spotlight cards will be injected here by JavaScript -->
+        </section>
+    </main>
         
     </main>
     
@@ -138,14 +140,15 @@
         <p id="last-updated"></p>
     </footer>
     
-    <script src="scripts/getDates.js"></script>
+    <script src="scripts/getDates.js">defer</script>
   
-    <script src="scripts/featured.js"></script>
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/weather.js"></script>
-    <script src="scripts/banner.js"></script>
+    <script src="scripts/featured.js">defer</script>
+    <script src="scripts/hamburger.js">defer</script>
+    <script src="scripts/weather.js">defer</script>
+    <script src="scripts/banner.js">defer</script>
     
-    <script src="scripts/chamber.js" defer ></script>
+    <script src="scripts/chamber.js">defer</script> 
+    <script src="scripts/spotlight.js">defer</script>
    
 </body>
 </html>

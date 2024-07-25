@@ -66,6 +66,77 @@ h2 {
     font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
+
+  /* Styles for the banner */
+  #announcement-banner {
+    display: none;
+    background-color: #FFD700; /* Gold */
+    color: #333;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    border: 2px solid #B3CDE0; /* Light Steel Blue */
+}
+
+#announcement-banner p {
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 60px;
+}
+
+#close-banner {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+ /* Styles for the spotlight section */
+ #spotlight-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#spotlight-section h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.spotlight-card {
+    background-color: #FFFACD; /* Light Sand Yellow */
+    border: 2px solid #B3CDE0; /* Light Steel Blue */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.spotlight-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.spotlight-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.spotlight-card p {
+    color: #666;
+}
+
+.spotlight-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 .show li {
     display: block;
 }
@@ -332,6 +403,21 @@ footer {
     color: #000000;
 }
 
+#business, #chamberWeathers{
+    background-color: var(--typeface-color1);
+    max-height: 32em;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+}
+
+#chamberWeathers #card-box{
+    max-height: fit-content;
+    max-width: fit-content;
+}
+#chamberWeathers{
+    flex-direction: row;
+}
 
 
 .cta-button {
